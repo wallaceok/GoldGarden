@@ -1,0 +1,10 @@
+2017-11-02 14:03:34,642 - common.log - INFO - ############################### START ###############################
+2017-11-02 14:03:43,130 - common.log - INFO - input username: 15902034568
+2017-11-02 14:03:48,676 - common.log - INFO - input password: 12345678
+2017-11-02 14:03:49,201 - common.log - INFO - keyboard： 4
+2017-11-02 14:03:49,202 - common.log - INFO - Click the element	<id -> com.tdh.rpms:id/btn_login>	 spend :0.0 time 
+2017-11-02 14:03:49,920 - common.log - INFO - recessive waiting： 10 秒
+2017-11-02 14:03:51,334 - common.log - INFO - Get the window title 	<name -> 首页>	 spend :1.4130806922912598 time 
+2017-11-02 14:03:51,335 - common.log - INFO - home_title is： 首页
+2017-11-02 14:03:51,336 - common.log - INFO - Test results：True
+2017-11-02 14:03:51,337 - common.log - INFO - ###############################  End  ###############################

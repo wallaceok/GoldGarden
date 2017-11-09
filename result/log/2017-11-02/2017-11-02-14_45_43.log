@@ -1,0 +1,9 @@
+2017-11-02 14:45:52,330 - common.log - INFO - ############################### START ###############################
+2017-11-02 14:46:00,232 - common.log - INFO - Clear and input text to the element 	<id -> com.tdh.rpms:id/et_usertel>	 content: 15902034568  spend :7.898451805114746 time 
+2017-11-02 14:46:20,721 - common.log - INFO - Clear and input text to the element 	<id -> com.tdh.rpms:id/et_usertel>	 content: 12345678  spend :20.48517155647278 time 
+2017-11-02 14:46:21,235 - common.log - INFO - keyboard： 4
+2017-11-02 14:46:21,237 - common.log - INFO - Click the element	<id -> com.tdh.rpms:id/btn_login>	 spend :0.0 time 
+2017-11-02 14:46:24,557 - common.log - INFO - recessive waiting： 10 秒
+2017-11-02 14:46:35,247 - common.log - INFO - Please enter the correct targeting elements
+2017-11-02 14:46:35,250 - common.log - ERROR - 登录失败
+2017-11-02 14:46:35,251 - common.log - INFO - Test results：False

@@ -1,0 +1,3 @@
+2017-11-02 15:00:35,075 - common.log - INFO - ############################### START ###############################
+2017-11-02 15:00:44,382 - common.log - INFO - Clear and input text to the element 	<id -> com.tdh.rpms:id/et_usertel>	 content: 15902034568  spend :9.303532361984253 time 
+2017-11-02 15:00:44,915 - common.log - INFO - keyboard： 61

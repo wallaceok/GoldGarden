@@ -1,0 +1,19 @@
+2017-11-07 13:27:44,315 - common.log - INFO - ############################### START ###############################
+2017-11-07 13:27:50,866 - common.log - INFO - Clear and input text to the element 	<id -> com.tdh.rpms:id/et_usertel>	 content: 18912656465  spend :6.548374652862549 time 
+2017-11-07 13:27:59,139 - common.log - INFO - Clear and input text to the element 	<id -> com.tdh.rpms:id/et_password>	 content: 12345678  spend :3.0781760215759277 time 
+2017-11-07 13:28:04,906 - common.log - INFO - keyboard： 4
+2017-11-07 13:28:04,908 - common.log - INFO - Click the element	<id -> com.tdh.rpms:id/btn_login>	 spend :0.0 time 
+2017-11-07 13:28:05,643 - common.log - INFO - recessive waiting： 10 秒
+2017-11-07 13:28:05,645 - common.log - INFO - Click the element	<name -> 安全巡检>	 spend :0.0 time 
+2017-11-07 13:28:07,741 - common.log - INFO - Click the element	<name -> planTest>	 spend :0.0 time 
+2017-11-07 13:28:09,279 - common.log - INFO - Click the element	<name -> point1>	 spend :0.0 time 
+2017-11-07 13:28:13,126 - common.log - INFO - Click the element	<id -> com.tdh.rpms:id/tv_sava>	 spend :0.0 time 
+2017-11-07 13:28:17,036 - common.log - INFO - Clear and input text to the element 	<id -> com.tdh.rpms:id/et_des>	 content: No problem  spend :3.3761932849884033 time 
+2017-11-07 13:28:22,721 - common.log - INFO - keyboard： 4
+2017-11-07 13:28:22,722 - common.log - INFO - Click the element	<id -> com.tdh.rpms:id/ll_paizhao>	 spend :0.0 time 
+2017-11-07 13:28:27,262 - common.log - INFO - keyboard： 27
+2017-11-07 13:28:27,263 - common.log - INFO - Click the element	<id -> com.android.camera:id/done_button>	 spend :0.0 time 
+2017-11-07 13:28:31,345 - common.log - INFO - recessive waiting： 3 秒
+2017-11-07 13:28:31,347 - common.log - INFO - Click the element	<id -> com.tdh.rpms:id/btn_sava>	 spend :0.0 time 
+2017-11-07 13:28:42,648 - common.log - INFO - Screenshot of success：inspection_normal spend :1.0430595874786377 time 
+2017-11-07 13:28:42,649 - common.log - INFO - ###############################  End  ###############################

@@ -1,0 +1,16 @@
+2017-11-02 16:33:01,138 - common.log - INFO - ############################### START ###############################
+2017-11-02 16:33:07,647 - common.log - INFO - Clear and input text to the element 	<id -> com.tdh.rpms:id/et_usertel>	 content: 15902034568  spend :6.506371974945068 time 
+2017-11-02 16:33:15,877 - common.log - INFO - Clear and input text to the element 	<id -> com.tdh.rpms:id/et_password>	 content: 12345678  spend :3.0231728553771973 time 
+2017-11-02 16:33:21,526 - common.log - INFO - keyboard： 4
+2017-11-02 16:33:21,529 - common.log - INFO - Click the element	<id -> com.tdh.rpms:id/btn_login>	 spend :0.0 time 
+2017-11-02 16:33:22,208 - common.log - INFO - recessive waiting： 10 秒
+2017-11-02 16:33:23,666 - common.log - INFO - Get the window title 	<name -> 首页>	 spend :1.456083059310913 time 
+2017-11-02 16:33:23,669 - common.log - INFO - home_title is： 首页
+2017-11-02 16:33:25,652 - common.log - INFO - Screenshot of success：LoginSuccess spend :1.9801132678985596 time 
+2017-11-02 16:33:25,654 - common.log - INFO - Test results：True
+2017-11-02 16:33:25,656 - common.log - INFO - Click the element	<id -> com.tdh.rpms:id/iv_tab_my>	 spend :0.0 time 
+2017-11-02 16:33:26,795 - common.log - INFO - Get the window title 	<name -> 我的>	 spend :0.7480428218841553 time 
+2017-11-02 16:33:26,797 - common.log - INFO - my_title is： 我的
+2017-11-02 16:33:37,709 - common.log - INFO - Please enter the correct targeting elements
+2017-11-02 16:33:37,713 - common.log - ERROR - Skip to login interface failed
+2017-11-02 16:33:37,716 - common.log - INFO - ###############################  End  ###############################

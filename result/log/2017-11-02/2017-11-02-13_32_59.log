@@ -1,0 +1,11 @@
+2017-11-02 13:33:07,129 - common.log - INFO - ############################### START ###############################
+2017-11-02 13:33:07,138 - common.log - INFO - Please enter the correct targeting elements
+2017-11-02 13:33:07,145 - common.log - INFO - Please enter the correct targeting elements
+2017-11-02 13:33:07,169 - common.log - INFO - keyboard： 4
+2017-11-02 13:33:07,177 - common.log - INFO - Please enter the correct targeting elements
+2017-11-02 13:33:07,185 - common.log - INFO - Please enter the correct targeting elements
+2017-11-02 13:33:07,193 - common.log - INFO - recessive waiting： 10 秒
+2017-11-02 13:33:07,194 - common.log - INFO - Get the window title 	<name -> 首页>	 spend :0.0 time 
+2017-11-02 13:33:17,911 - common.log - INFO - Please enter the correct targeting elements
+2017-11-02 13:33:17,918 - common.log - ERROR - 登录失败
+2017-11-02 13:33:17,920 - common.log - INFO - Test results：False

@@ -1,0 +1,20 @@
+2017-11-07 14:11:08,239 - common.log - INFO - ############################### START ###############################
+2017-11-07 14:11:09,250 - common.log - INFO - Add inspection data success
+2017-11-07 14:11:14,701 - common.log - INFO - Clear and input text to the element 	<id -> com.tdh.rpms:id/et_usertel>	 content: 18912656465  spend :5.447311639785767 time 
+2017-11-07 14:11:23,006 - common.log - INFO - Clear and input text to the element 	<id -> com.tdh.rpms:id/et_password>	 content: 12345678  spend :3.0401742458343506 time 
+2017-11-07 14:11:28,623 - common.log - INFO - keyboard： 4
+2017-11-07 14:11:28,627 - common.log - INFO - Click the element	<id -> com.tdh.rpms:id/btn_login>	 spend :0.0 time 
+2017-11-07 14:11:29,366 - common.log - INFO - recessive waiting： 10 秒
+2017-11-07 14:11:29,370 - common.log - INFO - Click the element	<name -> 安全巡检>	 spend :0.0 time 
+2017-11-07 14:11:31,277 - common.log - INFO - Click the element	<name -> planTest>	 spend :0.0010001659393310547 time 
+2017-11-07 14:11:33,112 - common.log - INFO - Click the element	<name -> point1>	 spend :0.0 time 
+2017-11-07 14:11:38,166 - common.log - INFO - Click the element	<id -> com.tdh.rpms:id/tv_sava>	 spend :0.0 time 
+2017-11-07 14:11:42,417 - common.log - INFO - Clear and input text to the element 	<id -> com.tdh.rpms:id/et_des>	 content: No problem point1  spend :3.3071892261505127 time 
+2017-11-07 14:11:48,186 - common.log - INFO - keyboard： 4
+2017-11-07 14:11:48,189 - common.log - INFO - Click the element	<id -> com.tdh.rpms:id/ll_paizhao>	 spend :0.0 time 
+2017-11-07 14:11:52,549 - common.log - INFO - keyboard： 27
+2017-11-07 14:11:52,551 - common.log - INFO - Click the element	<id -> com.android.camera:id/done_button>	 spend :0.0 time 
+2017-11-07 14:11:56,788 - common.log - INFO - recessive waiting： 3 秒
+2017-11-07 14:11:56,791 - common.log - INFO - Click the element	<id -> com.tdh.rpms:id/btn_sava>	 spend :0.0 time 
+2017-11-07 14:12:07,081 - common.log - INFO - Click the element	<name -> point2>	 spend :0.0 time 
+2017-11-07 14:12:19,152 - common.log - INFO - Please enter the correct targeting elements

@@ -1,0 +1,3 @@
+2017-11-02 09:55:19,627 - common.log - INFO - ====================PswEmpty=============================
+2017-11-02 09:55:29,913 - common.log - ERROR - Message: 
+  test_A_PswEmpty (test_login.Login) 页面中未能找到 ('id', 'com.tdh.rpms:id/et_usertel') 元素

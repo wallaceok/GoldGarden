@@ -1,0 +1,7 @@
+2017-11-02 15:06:43,769 - common.log - INFO - ############################### START ###############################
+2017-11-02 15:06:56,214 - common.log - INFO - Click the element	<id -> com.tdh.rpms:id/btn_login>	 spend :0.0 time 
+2017-11-02 15:06:57,177 - common.log - INFO - recessive waiting： 10 秒
+2017-11-02 15:06:59,423 - common.log - INFO - Get the window title 	<name -> 首页>	 spend :2.2441282272338867 time 
+2017-11-02 15:06:59,425 - common.log - INFO - home_title is： 首页
+2017-11-02 15:06:59,427 - common.log - INFO - Test results：True
+2017-11-02 15:06:59,429 - common.log - INFO - ###############################  End  ###############################

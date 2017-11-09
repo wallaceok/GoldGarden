@@ -1,0 +1,13 @@
+2017-11-02 10:08:05,748 - common.log - INFO - ====================PswEmpty=============================
+2017-11-02 10:08:09,594 - common.log - INFO - Find the element id：com.tdh.rpms:id/et_usertel
+2017-11-02 10:08:14,629 - common.log - INFO - 输入测试账号: 15902034568
+2017-11-02 10:08:15,235 - common.log - INFO - Find the element id：com.tdh.rpms:id/et_password
+2017-11-02 10:08:20,361 - common.log - INFO - 输入测试账号: 12345678
+2017-11-02 10:08:20,890 - common.log - INFO - 物理键盘操作： 4
+2017-11-02 10:08:21,252 - common.log - INFO - Find the element id：com.tdh.rpms:id/btn_login
+2017-11-02 10:08:21,633 - common.log - INFO - 点击登录按钮
+2017-11-02 10:08:21,647 - common.log - INFO - 隐示等待： 10 秒
+2017-11-02 10:08:22,974 - common.log - INFO - Find the element name：首页
+2017-11-02 10:08:23,104 - common.log - INFO - home_title is： 首页
+2017-11-02 10:08:23,107 - common.log - INFO - 本次测试结果：True
+2017-11-02 10:08:23,109 - common.log - INFO - =====================testEnd=============================

@@ -1,0 +1,42 @@
+2017-11-07 15:08:14,381 - common.log - INFO - ############################### START ###############################
+2017-11-07 15:08:15,484 - common.log - INFO - Add inspection data success
+2017-11-07 15:08:20,922 - common.log - INFO - Clear and input text to the element 	<id -> com.tdh.rpms:id/et_usertel>	 content: 18912656465  spend :5.4353108406066895 time 
+2017-11-07 15:08:29,139 - common.log - INFO - Clear and input text to the element 	<id -> com.tdh.rpms:id/et_password>	 content: 12345678  spend :3.006171941757202 time 
+2017-11-07 15:08:34,756 - common.log - INFO - keyboard： 4
+2017-11-07 15:08:34,758 - common.log - INFO - Click the element	<id -> com.tdh.rpms:id/btn_login>	 spend :0.0 time 
+2017-11-07 15:08:35,408 - common.log - INFO - recessive waiting： 10 秒
+2017-11-07 15:08:35,411 - common.log - INFO - Click the element	<name -> 安全巡检>	 spend :0.0 time 
+2017-11-07 15:08:37,365 - common.log - INFO - Click the element	<name -> planTest>	 spend :0.0 time 
+2017-11-07 15:08:38,860 - common.log - INFO - Click the element	<name -> point1>	 spend :0.0 time 
+2017-11-07 15:08:43,240 - common.log - INFO - Click the element	<id -> com.tdh.rpms:id/tv_sava>	 spend :0.0 time 
+2017-11-07 15:08:47,218 - common.log - INFO - Clear and input text to the element 	<id -> com.tdh.rpms:id/et_des>	 content: No problem point1  spend :3.4211957454681396 time 
+2017-11-07 15:08:53,422 - common.log - INFO - keyboard： 4
+2017-11-07 15:08:53,424 - common.log - INFO - Click the element	<id -> com.tdh.rpms:id/ll_paizhao>	 spend :0.0 time 
+2017-11-07 15:08:57,674 - common.log - INFO - keyboard： 27
+2017-11-07 15:08:57,675 - common.log - INFO - Click the element	<id -> com.android.camera:id/done_button>	 spend :0.0 time 
+2017-11-07 15:09:02,095 - common.log - INFO - recessive waiting： 3 秒
+2017-11-07 15:09:02,097 - common.log - INFO - Click the element	<id -> com.tdh.rpms:id/btn_sava>	 spend :0.0 time 
+2017-11-07 15:09:12,003 - common.log - INFO - Click the element	<name -> point2>	 spend :0.0 time 
+2017-11-07 15:09:15,834 - common.log - INFO - Click the element	<id -> com.tdh.rpms:id/tv_sava>	 spend :0.0 time 
+2017-11-07 15:09:19,700 - common.log - INFO - Clear and input text to the element 	<id -> com.tdh.rpms:id/et_des>	 content: No problem point2  spend :3.348191499710083 time 
+2017-11-07 15:09:25,611 - common.log - INFO - keyboard： 4
+2017-11-07 15:09:25,614 - common.log - INFO - Click the element	<id -> com.tdh.rpms:id/ll_paizhao>	 spend :0.0 time 
+2017-11-07 15:09:29,873 - common.log - INFO - keyboard： 27
+2017-11-07 15:09:29,875 - common.log - INFO - Click the element	<id -> com.android.camera:id/done_button>	 spend :0.0 time 
+2017-11-07 15:09:34,754 - common.log - INFO - recessive waiting： 3 秒
+2017-11-07 15:09:34,756 - common.log - INFO - Click the element	<id -> com.tdh.rpms:id/btn_sava>	 spend :0.0 time 
+2017-11-07 15:09:44,557 - common.log - INFO - Click the element	<id -> com.tdh.rpms:id/btn_finish>	 spend :0.0 time 
+2017-11-07 15:09:46,152 - common.log - INFO - keyboard： 4
+2017-11-07 15:09:46,154 - common.log - INFO - Click the element	<id -> com.tdh.rpms:id/tv_right_title>	 spend :0.0 time 
+2017-11-07 15:09:49,252 - common.log - INFO - Get the window title 	<id -> com.tdh.rpms:id/btn_state>	 spend :0.16900968551635742 time 
+2017-11-07 15:09:49,255 - common.log - INFO - plan result is： 正常
+2017-11-07 15:09:50,429 - common.log - INFO - Screenshot of success：inspection_normal spend :1.173067331314087 time 
+2017-11-07 15:09:50,461 - common.log - INFO - keyboard： 4
+2017-11-07 15:09:50,500 - common.log - INFO - keyboard： 4
+2017-11-07 15:09:51,109 - common.log - INFO - keyboard： 4
+2017-11-07 15:09:51,111 - common.log - INFO - Click the element	<id -> com.tdh.rpms:id/iv_tab_my>	 spend :0.0 time 
+2017-11-07 15:09:53,616 - common.log - INFO - Get the window title 	<name -> 我的>	 spend :0.9260530471801758 time 
+2017-11-07 15:09:53,617 - common.log - INFO - my_title is： 我的
+2017-11-07 15:09:53,618 - common.log - INFO - Click the element	<id -> com.tdh.rpms:id/btn_logout>	 spend :0.0 time 
+2017-11-07 15:09:54,796 - common.log - INFO - Delete inspection data success
+2017-11-07 15:09:54,796 - common.log - INFO - ###############################  End  ###############################

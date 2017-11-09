@@ -1,0 +1,13 @@
+2017-11-02 11:46:57,616 - common.log - INFO - ====================PswEmpty=============================
+2017-11-02 11:47:02,765 - common.log - INFO - Find the element	<id->com.tdh.rpms:id/et_usertel>	 second:5.148294448852539 
+2017-11-02 11:47:07,922 - common.log - INFO - input username: 15902034568
+2017-11-02 11:47:08,482 - common.log - INFO - Find the element	<id->com.tdh.rpms:id/et_password>	 second:0.5560321807861328 
+2017-11-02 11:47:13,503 - common.log - INFO - input password: 12345678
+2017-11-02 11:47:14,039 - common.log - INFO - 物理键盘操作： 4
+2017-11-02 11:47:14,358 - common.log - INFO - Find the element	<id->com.tdh.rpms:id/btn_login>	 second:0.3170180320739746 
+2017-11-02 11:47:14,719 - common.log - INFO - click login button
+2017-11-02 11:47:14,730 - common.log - INFO - recessive waiting： 10 秒
+2017-11-02 11:47:15,883 - common.log - INFO - Find the element	<name->首页>	 second:1.1500658988952637 
+2017-11-02 11:47:16,012 - common.log - INFO - home_title is： 首页
+2017-11-02 11:47:16,015 - common.log - INFO - Test results：True
+2017-11-02 11:47:16,018 - common.log - INFO - =====================testEnd=============================

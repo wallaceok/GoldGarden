@@ -1,0 +1,11 @@
+2017-11-07 14:43:10,182 - common.log - INFO - ############################### START ###############################
+2017-11-07 14:43:11,184 - common.log - INFO - Add inspection data success
+2017-11-07 14:43:16,316 - common.log - INFO - Clear and input text to the element 	<id -> com.tdh.rpms:id/et_usertel>	 content: 18912656465  spend :5.128293514251709 time 
+2017-11-07 14:43:24,559 - common.log - INFO - Clear and input text to the element 	<id -> com.tdh.rpms:id/et_password>	 content: 12345678  spend :3.084176540374756 time 
+2017-11-07 14:43:30,069 - common.log - INFO - keyboard： 4
+2017-11-07 14:43:30,074 - common.log - INFO - Click the element	<id -> com.tdh.rpms:id/btn_login>	 spend :0.0 time 
+2017-11-07 14:43:30,737 - common.log - INFO - recessive waiting： 10 秒
+2017-11-07 14:43:30,740 - common.log - INFO - Click the element	<name -> 安全巡检>	 spend :0.0 time 
+2017-11-07 14:43:32,535 - common.log - INFO - Click the element	<name -> planTest>	 spend :0.0 time 
+2017-11-07 14:43:34,071 - common.log - INFO - Click the element	<name -> point1>	 spend :0.0 time 
+2017-11-07 14:43:37,977 - common.log - INFO - Click the element	<id -> com.tdh.rpms:id/tv_sava>	 spend :0.0 time 

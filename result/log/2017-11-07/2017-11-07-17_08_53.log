@@ -1,0 +1,17 @@
+2017-11-07 17:09:01,563 - common.log - INFO - ############################### START ###############################
+2017-11-07 17:09:03,336 - common.log - INFO - Add inspection data success
+2017-11-07 17:09:06,143 - common.log - INFO - Clear and input text to the element 	<id -> com.tdh.rpms:id/et_usertel>	 content: 18912656465  spend :2.8041603565216064 time 
+2017-11-07 17:09:14,492 - common.log - INFO - Clear and input text to the element 	<id -> com.tdh.rpms:id/et_password>	 content: 12345678  spend :3.098176956176758 time 
+2017-11-07 17:09:20,359 - common.log - INFO - keyboard： 4
+2017-11-07 17:09:20,362 - common.log - INFO - Click the element	<id -> com.tdh.rpms:id/btn_login>	 spend :0.0 time 
+2017-11-07 17:09:21,127 - common.log - INFO - recessive waiting： 10 秒
+2017-11-07 17:09:21,133 - common.log - INFO - Click the element	<name -> 安全巡检>	 spend :0.0 time 
+2017-11-07 17:09:23,013 - common.log - INFO - Click the element	<name -> planTest>	 spend :0.0 time 
+2017-11-07 17:09:25,306 - common.log - INFO - Click the element	<name -> point1>	 spend :0.0 time 
+2017-11-07 17:09:30,794 - common.log - INFO - Click the element	<id -> com.tdh.rpms:id/tv_sava>	 spend :0.0 time 
+2017-11-07 17:09:34,689 - common.log - INFO - Clear and input text to the element 	<id -> com.tdh.rpms:id/et_des>	 content: No problem point1  spend :3.3061890602111816 time 
+2017-11-07 17:09:40,495 - common.log - INFO - keyboard： 4
+2017-11-07 17:09:40,498 - common.log - INFO - Click the element	<id -> com.tdh.rpms:id/ll_paizhao>	 spend :0.0 time 
+2017-11-07 17:09:44,598 - common.log - INFO - keyboard： 27
+2017-11-07 17:09:44,600 - common.log - INFO - Click the element	<id -> com.android.camera:id/done_button>	 spend :0.0 time 
+2017-11-07 17:09:55,664 - common.log - INFO - Please enter the correct targeting elements

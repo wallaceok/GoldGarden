@@ -1,0 +1,8 @@
+2017-11-02 14:36:47,149 - common.log - INFO - ############################### START ###############################
+2017-11-02 14:36:49,075 - common.log - INFO - Get the window title 	<id -> com.tdh.rpms:id/et_usertel>	 spend :1.923110008239746 time 
+2017-11-02 14:36:51,739 - common.log - INFO - Clear and input text to the element 	<id -> com.tdh.rpms:id/et_usertel>	 content: 15902034568  spend :4.587262392044067 time 
+2017-11-02 14:36:51,946 - common.log - INFO - Get the window title 	<id -> com.tdh.rpms:id/et_usertel>	 spend :0.20501160621643066 time 
+2017-11-02 14:36:54,493 - common.log - INFO - Clear and input text to the element 	<id -> com.tdh.rpms:id/et_usertel>	 content: 12345678  spend :2.75215744972229 time 
+2017-11-02 14:36:54,544 - common.log - INFO - keyboard： 4
+2017-11-02 14:36:54,546 - common.log - INFO - Click the element	<id -> com.tdh.rpms:id/btn_login>	 spend :0.0 time 
+2017-11-02 14:37:05,070 - common.log - INFO - Please enter the correct targeting elements

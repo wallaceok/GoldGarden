@@ -1,0 +1,14 @@
+2017-11-02 13:49:24,249 - common.log - INFO - ############################### START ###############################
+2017-11-02 13:49:28,512 - common.log - INFO - Find the element	<id -> com.tdh.rpms:id/et_usertel>	 spend :4.2602434158325195 time 
+2017-11-02 13:49:33,677 - common.log - INFO - input username: 15902034568
+2017-11-02 13:49:34,296 - common.log - INFO - Find the element	<id -> com.tdh.rpms:id/et_password>	 spend :0.6170353889465332 time 
+2017-11-02 13:49:39,303 - common.log - INFO - input password: 12345678
+2017-11-02 13:49:39,824 - common.log - INFO - keyboard： 4
+2017-11-02 13:49:40,113 - common.log - INFO - Find the element	<id -> com.tdh.rpms:id/btn_login>	 spend :0.2870166301727295 time 
+2017-11-02 13:49:40,525 - common.log - INFO - click login button
+2017-11-02 13:49:40,535 - common.log - INFO - recessive waiting： 10 秒
+2017-11-02 13:49:40,537 - common.log - INFO - Get the window title 	<name -> 首页>	 spend :0.0 time 
+2017-11-02 13:49:41,897 - common.log - INFO - Find the element	<name -> 首页>	 spend :1.3560774326324463 time 
+2017-11-02 13:49:42,135 - common.log - INFO - home_title is： 首页
+2017-11-02 13:49:42,138 - common.log - INFO - Test results：True
+2017-11-02 13:49:42,157 - common.log - INFO - ###############################  End  ###############################
