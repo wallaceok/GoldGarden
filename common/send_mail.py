@@ -1,6 +1,9 @@
 #!/usr/bin/python3
 # coding:utf-8
 import smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
+from email.header import Header
 from config import global_parameters
 import os
 import time
@@ -38,7 +41,23 @@ class SendMail(object):
         except IOError as error:
             print('IOError:{0}'.format(error))
 
+    def send_mail(self):
+        message = MIMEMultipart()
+        message["From"] = self.sender_name
+        message["To"] = self.receiver
+        message['Subject'] = Header('Jyb_auto 测试邮件', 'utf-8')
+        message.attach(MIMEText(self.html_value(), _subtype='html', _charset='utf-8'))
+        try:
+            server = smtplib.SMTP_SSL('smtp.163.com', 994)
+            server.login(self.sender_name, self.sender_psw)
+            server.sendmail(self.sender_name, self.receiver, message.as_string())
+            server.quit()
+            print('邮件发送成功')
+        except smtplib.SMTPException:
+            print('Error：无法发送邮件')
+
 if __name__ == '__main__':
     send = SendMail()
     # print(send.get_report())
-    print(send.html_value())
+    # print(send.html_value())
+    send.send_mail()
