@@ -180,7 +180,7 @@ class BasePage(object):
     def get_apk():
         """
         得到最新的apk
-        :return:    返回最新的apk名字 string类型
+        :return:                       返回最新的apk名字 string类型
         """
         try:
             dirs = os.listdir(global_parameters.apk_path)
@@ -205,7 +205,7 @@ class BasePage(object):
     def remove_apk(self, app_id):
         """
         删除apk
-        :param app_id:   apk_id string类型
+        :param app_id:                       apk_id string类型
         :return:
         """
         return self.driver.remove_app(app_id)
