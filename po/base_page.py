@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 # coding:utf-8
 from selenium.webdriver.support.wait import WebDriverWait
+from appium import webdriver
 from common.log import Log
 import time
 import os
@@ -11,7 +12,7 @@ class BasePage(object):
 
     log = Log()
 
-    def __init__(self, driver):
+    def __init__(self, driver: webdriver.Remote):
         self.driver = driver
 
     def wait(self, seconds):
@@ -174,3 +175,44 @@ class BasePage(object):
         image = self.driver.save_screenshot(self.save_image(name))
         self.log.info("Screenshot of success：%s spend :%s time " % (name, time.time()-start_time))
         return image
+
+    @staticmethod
+    def get_apk():
+        """
+        得到最新的apk
+        :return:    返回最新的apk名字 string类型
+        """
+        try:
+            dirs = os.listdir(global_parameters.apk_path)
+            if dirs is not None:
+                dirs.sort()
+                new_apk = dirs[-1]
+                print('最新的apk包为：' + new_apk)
+                return new_apk
+            else:
+                print('This directory is empty')
+        except FileNotFoundError as error:
+            print(' FileNotFoundError:{0}'.format(error))
+
+    def install_apk(self):
+        """
+        安装qpk
+        :return:
+        """
+        apk_path = global_parameters.apk_path+'\\'+self.get_apk()
+        return self.driver.install_app(apk_path)
+
+    def remove_apk(self, app_id):
+        """
+        删除apk
+        :param app_id:   apk_id string类型
+        :return:
+        """
+        return self.driver.remove_app(app_id)
+
+    def close_current_window(self):
+        """
+        关键当前创窗口
+        :return:
+        """
+        return self.driver.close()
