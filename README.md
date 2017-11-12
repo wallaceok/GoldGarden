@@ -39,6 +39,3 @@ jenkins 2.0
 tomcat配置：https://jingyan.baidu.com/article/54b6b9c0dd0c6a2d593b4743.html
 Jenkins war包放到webapps下
 启动jenkins：先重启tomcat：startup.bat，然后在浏览器输入http://localhost:8080/jenkins/
-
-
-
