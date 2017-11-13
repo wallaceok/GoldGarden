@@ -46,13 +46,17 @@ class SendMail(object):
         message["From"] = self.sender_name
         message["To"] = self.receiver
         message['Subject'] = Header('Jyb_auto 测试邮件', 'utf-8')
-        message.attach(MIMEText(self.html_value(), _subtype='html', _charset='utf-8'))
+        # message.attach(MIMEText(self.html_value(), _subtype='html', _charset='utf-8'))
+        # mail_msg =""" Hi:
+        #     Jyb_auto 本次测试结果：请查看附件，谢谢！
+        # """
+        # message.attach(MIMEText(mail_msg, 'plain', 'utf-8'))
         try:
             server = smtplib.SMTP_SSL('smtp.163.com', 994)
             server.login(self.sender_name, self.sender_psw)
             server.sendmail(self.sender_name, self.receiver, message.as_string())
             server.quit()
-            print('邮件发送成功')
+            print('发送邮件成功-----------------请到邮箱查收!')
         except smtplib.SMTPException:
             print('Error：无法发送邮件')
 
