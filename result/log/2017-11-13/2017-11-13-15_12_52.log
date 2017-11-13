@@ -1,0 +1,17 @@
+2017-11-13 15:13:01,151 - common.log - INFO - ############################### START ###############################
+2017-11-13 15:13:07,577 - common.log - INFO - Clear and input text to the element 	<id -> com.tdh.rpms:id/et_usertel>	 content: 15902034568  spend :6.424367666244507 time 
+2017-11-13 15:13:15,904 - common.log - INFO - Clear and input text to the element 	<id -> com.tdh.rpms:id/et_password>	 content: 12345678  spend :3.1851820945739746 time 
+2017-11-13 15:13:21,496 - common.log - INFO - keyboard： 4
+2017-11-13 15:13:21,498 - common.log - INFO - Click the element	<id -> com.tdh.rpms:id/btn_login>	 spend :0.0 time 
+2017-11-13 15:13:22,291 - common.log - INFO - recessive waiting： 10 秒
+2017-11-13 15:13:26,040 - common.log - INFO - Get the window title 	<name -> 首页>	 spend :3.7472143173217773 time 
+2017-11-13 15:13:26,044 - common.log - INFO - home_title is： 首页
+2017-11-13 15:13:27,735 - common.log - INFO - Screenshot of success：LoginSuccess spend :1.689096450805664 time 
+2017-11-13 15:13:27,736 - common.log - INFO - Test results：True
+2017-11-13 15:13:27,737 - common.log - INFO - Click the element	<id -> com.tdh.rpms:id/iv_tab_my>	 spend :0.0 time 
+2017-11-13 15:13:28,987 - common.log - INFO - Get the window title 	<name -> 我的>	 spend :0.7900450229644775 time 
+2017-11-13 15:13:28,989 - common.log - INFO - my_title is： 我的
+2017-11-13 15:13:28,991 - common.log - INFO - Click the element	<id -> com.tdh.rpms:id/btn_logout>	 spend :0.0 time 
+2017-11-13 15:13:30,347 - common.log - INFO - Get the window title 	<id -> com.tdh.rpms:id/tv_version_number>	 spend :0.6690380573272705 time 
+2017-11-13 15:13:30,349 - common.log - INFO - version text is： V2.5.7
+2017-11-13 15:13:30,351 - common.log - INFO - ###############################  End  ###############################

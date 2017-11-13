@@ -3,11 +3,11 @@
 import unittest
 import time
 import os
-from public import HTMLTestRunner
+from public import HTMLTestRunnerXL
 from config import global_parameters
 
 
-def run(rule="test*.py"):
+def run(rule="test_login.py"):
     case_path = global_parameters.case_path
     discover = unittest.defaultTestLoader.discover(
         case_path,
@@ -21,7 +21,7 @@ def run(rule="test*.py"):
     now = time.strftime('%Y-%m-%d_%H_%M_%S')
     test_report_name = report_path +'\\'+now+'_TestReport.html'
     with open(test_report_name, 'wb') as fb:
-        runner = HTMLTestRunner.HTMLTestRunner(
+        runner = HTMLTestRunnerXL.HTMLTestRunner(
             stream=fb,
             title='Jyb_Test_Report',
             description='用例测试情况'
