@@ -353,9 +353,9 @@ a.popup_link:hover {
 
     REPORT_TMPL = """
 <p id='show_detail_line'>Show
-<a href='javascript:showCase(0)'>Summary</a>
-<a href='javascript:showCase(1)'>Failed</a>
-<a href='javascript:showCase(2)'>All</a>
+<a href='javascript:showCase(0)'>概要</a>
+<a href='javascript:showCase(1)'>失败</a>
+<a href='javascript:showCase(2)'>所有</a>
 </p>
 <table id='result_table'>
 <colgroup>
@@ -367,16 +367,16 @@ a.popup_link:hover {
 <col align='right' />
 </colgroup>
 <tr id='header_row'>
-    <td>Test Group/Test case</td>
-    <td>Count</td>
-    <td>Pass</td>
-    <td>Fail</td>
-    <td>Error</td>
-    <td>View</td>
+    <td>测试套件/测试用例</td>
+    <td>总数</td>
+    <td>通过</td>
+    <td>失败</td>
+    <td>错误</td>
+    <td>查看</td>
 </tr>
 %(test_list)s
 <tr id='total_row'>
-    <td>Total</td>
+    <td>总计</td>
     <td>%(count)s</td>
     <td>%(Pass)s</td>
     <td>%(fail)s</td>
@@ -394,7 +394,7 @@ a.popup_link:hover {
     <td>%(Pass)s</td>
     <td>%(fail)s</td>
     <td>%(error)s</td>
-    <td><a href="javascript:showClassDetail('%(cid)s',%(count)s)">Detail</a></td>
+    <td><a href="javascript:showClassDetail('%(cid)s',%(count)s)">详情</a></td>
 </tr>
 """
 # 变量: (style, desc, count, Pass, fail, error, cid)
@@ -604,9 +604,9 @@ class HTMLTestRunner(TemplateMixin):
         else:
             status = 'none'
         return [
-            ('Start Time', start_time),
-            ('Duration', duration),
-            ('Status', status),
+            ('开始测试时间', start_time),
+            ('运行时长', duration),
+            ('状态', status),
         ]
 
     def generate_report(self, result):
