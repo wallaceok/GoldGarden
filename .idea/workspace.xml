@@ -2,30 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e30de97-c1c4-494a-9224-1205845d1d72" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/image/2017-11-13/2017-11-13-15_13_26_LoginSuccess.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/image/2017-11-13/2017-11-13-15_17_07_LoginSuccess.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/image/2017-11-13/2017-11-13-15_35_39_LoginSuccess.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/image/2017-11-13/2017-11-13-15_47_23_LoginSuccess.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/HTMLTestRunnerXL.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/log/2017-11-13/2017-11-13-15_11_33.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/log/2017-11-13/2017-11-13-15_12_52.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/log/2017-11-13/2017-11-13-15_16_39.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/log/2017-11-13/2017-11-13-15_35_07.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/log/2017-11-13/2017-11-13-15_46_55.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_13_28_53_TestReport.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_13_34_52_TestReport.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_13_52_07_TestReport.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_14_06_42_TestReport.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_14_07_32_TestReport.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_14_44_54_TestReport.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_15_05_20_TestReport.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_15_12_52_TestReport.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_15_16_39_TestReport.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_15_35_07_TestReport.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_15_46_55_TestReport.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/HTMLTestRunner.py" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/image/2017-11-13/2017-11-13-16_42_15_LoginSuccess.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/image/2017-11-13/2017-11-13-16_49_20_LoginSuccess.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/image/2017-11-13/2017-11-13-16_50_35_LoginSuccess.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Runner.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/log/2017-11-13/2017-11-13-16_41_44.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/log/2017-11-13/2017-11-13-16_48_22.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/log/2017-11-13/2017-11-13-16_50_05.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_16_36_43_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_16_41_44_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_16_45_17_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_16_45_48_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_16_48_22_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_16_50_05_TestReport.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run.py" afterPath="$PROJECT_DIR$/run.py" />
     </list>
     <ignored path="GoldGarden.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,7 +37,7 @@
     <SUITE FILE_PATH="coverage/GoldGarden$1231231.coverage" NAME="1231231 Coverage Results" MODIFIED="1509604340222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/po" />
     <SUITE FILE_PATH="coverage/GoldGarden$23132131232.coverage" NAME="23132131232 Coverage Results" MODIFIED="1509609767903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/GoldGarden$draw_cartogram.coverage" NAME="draw_cartogram Coverage Results" MODIFIED="1508995059511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
-    <SUITE FILE_PATH="coverage/GoldGarden$run.coverage" NAME="run Coverage Results" MODIFIED="1510559062221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GoldGarden$run.coverage" NAME="run Coverage Results" MODIFIED="1510562901957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/GoldGarden$use_excel.coverage" NAME="use_excel Coverage Results" MODIFIED="1509072834048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/GoldGarden$global_parameters.coverage" NAME="global_parameters Coverage Results" MODIFIED="1510482619643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/config" />
     <SUITE FILE_PATH="coverage/GoldGarden$Unittests_in_HTMLTestRunner.coverage" NAME="Unittests in HTMLTestRunner Coverage Results" MODIFIED="1510475414637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
@@ -106,14 +96,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="run.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17801857">
-              <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="e#34#49#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HTMLTestRunnerXL.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/HTMLTestRunnerXL.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.501548">
+              <caret line="586" column="27" selection-start-line="586" selection-start-column="27" selection-end-line="586" selection-end-column="27" />
+              <folding>
+                <element signature="e#34#71#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Runner.bat" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Runner.bat">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="write_excel.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/write_excel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -147,7 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Common/ReadErrorLog.py" />
         <option value="$PROJECT_DIR$/Common/UseText.py" />
         <option value="$PROJECT_DIR$/common/read_config.py" />
         <option value="$PROJECT_DIR$/common/logger.py" />
@@ -196,8 +217,9 @@
         <option value="$PROJECT_DIR$/common/send_mail.py" />
         <option value="$PROJECT_DIR$/../HTMLTestRunner.py" />
         <option value="$PROJECT_DIR$/../HTMLTestRunner1.py" />
-        <option value="$PROJECT_DIR$/public/HTMLTestRunner.py" />
         <option value="$PROJECT_DIR$/run.py" />
+        <option value="$PROJECT_DIR$/public/HTMLTestRunnerXL.py" />
+        <option value="$PROJECT_DIR$/public/HTMLTestRunner.py" />
       </list>
     </option>
   </component>
@@ -256,7 +278,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -285,7 +307,35 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoldGarden" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoldGarden" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="po" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoldGarden" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoldGarden" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -317,9 +367,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoldGarden" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoldGarden" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -728,7 +792,13 @@
       <option name="project" value="LOCAL" />
       <updated>1510537208188</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add HTMLTestRunnerXL version 1.0.0">
+      <created>1510559702587</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1510559702587</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -767,13 +837,13 @@
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27672035" sideWeight="0.49069768" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24816984" sideWeight="0.49069768" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6162963" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21925926" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43555555" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.323217" sideWeight="0.5093023" order="2" side_tool="true" content_ui="tabs" />
@@ -829,7 +899,8 @@
     <MESSAGE value="add send_mail 01&#10;" />
     <MESSAGE value="add send_mail 02&#10;" />
     <MESSAGE value="change name" />
-    <option name="LAST_COMMIT_MESSAGE" value="change name" />
+    <MESSAGE value="Add HTMLTestRunnerXL version 1.0.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add HTMLTestRunnerXL version 1.0.0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -838,20 +909,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/result/log/2017-10-31/2017-10-31-10_50_56.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result/log/2017-10-31/2017-10-31-10_52_34.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/result/log/2017-10-31/2017-10-31-14_49_10.log">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1047,13 +1104,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/write_excel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9613003">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/wechat_sender.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.14241487">
@@ -1135,7 +1185,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="184" column="0" selection-start-line="184" selection-start-column="0" selection-end-line="194" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1143,7 +1192,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.035603717">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1151,15 +1199,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.7749077">
           <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/test_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1175,16 +1214,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5696595">
           <caret line="643" column="29" selection-start-line="643" selection-start-column="29" selection-end-line="643" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/write_excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runner.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17801857">
-          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <element signature="e#34#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/HTMLTestRunnerXL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.501548">
+          <caret line="586" column="27" selection-start-line="586" selection-start-column="27" selection-end-line="586" selection-end-column="27" />
+          <folding>
+            <element signature="e#34#71#0" expanded="true" />
           </folding>
         </state>
       </provider>
