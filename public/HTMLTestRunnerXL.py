@@ -6,6 +6,9 @@ import io
 import sys
 import unittest
 from xml.sax import saxutils
+'''
+@changed by:luting
+'''
 
 
 class OutputRedirector(object):
@@ -197,7 +200,7 @@ a.popup_link:hover {
     font-family: "Lucida Console", "Courier New", Courier, monospace;
     text-align: left;
     font-size: 8pt;
-    width: 500px;
+    width: 100%;
 }
 
 }
@@ -207,7 +210,7 @@ a.popup_link:hover {
     margin-bottom: 1ex;
 }-->
 #result_table {
-    width: 80%;
+    width: 100%;
     border-collapse: collapse;
     border: 1px solid #777;
 }
@@ -381,8 +384,8 @@ onmouseover="this.style.backgroundColor='#FF9933';" onmouseout="this.style.backg
     <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_%(tid)s')" >
         %(status)s</a>
 
-    <div id='div_%(tid)s' class="popup_window">
-        <div style='text-align: right; color:red;cursor:pointer'>
+    <div id='div_%(tid)s' class="popup_window"  >
+        <div style='text-align: left; color:red;cursor:pointer';>
         <a onfocus='this.blur();' onclick="document.getElementById('div_%(tid)s').style.display = 'none' " >
            [x]</a>
         </div>

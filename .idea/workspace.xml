@@ -2,85 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e30de97-c1c4-494a-9224-1205845d1d72" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/image/2017-11-14/2017-11-14-14_12_00_LoginSuccess.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/image/2017-11-14/2017-11-14-14_31_14_LoginSuccess.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/image/2017-11-14/2017-11-14-14_32_16_LoginSuccess.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/image/2017-11-14/2017-11-14-14_33_14_LoginSuccess.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/log/2017-11-13/2017-11-13-18_12_25.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/log/2017-11-14/2017-11-14-14_11_21.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/log/2017-11-14/2017-11-14-14_21_30.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/log/2017-11-14/2017-11-14-14_30_20.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/log/2017-11-14/2017-11-14-14_31_46.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/log/2017-11-14/2017-11-14-14_32_40.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/log/2017-11-14/2017-11-14-14_35_02.log" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-12/2017-11-12_16_37_32_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_13_28_53_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_13_34_52_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_13_52_07_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_14_06_42_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_14_07_32_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_14_44_54_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_15_05_20_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_15_12_52_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_15_16_39_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_15_35_07_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_16_36_43_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_16_41_44_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_16_45_17_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_16_45_48_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_16_48_22_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_16_50_05_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_18_12_25_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_18_13_02_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_18_16_08_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_18_16_43_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_18_22_55_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_23_26_08_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_23_30_08_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_23_42_17_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_23_55_45_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_23_58_53_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_00_03_44_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_00_04_11_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_00_06_06_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_00_07_26_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_00_09_14_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_09_43_20_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_09_43_21_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_09_45_58_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_09_49_15_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_09_50_18_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_09_51_10_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_09_51_51_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_09_54_34_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_09_55_41_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_09_56_33_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_09_57_26_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_10_16_09_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_10_18_45_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_10_19_15_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_10_20_13_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_10_23_03_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_10_34_17_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_10_55_16_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_10_55_58_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_10_56_47_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_11_03_45_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_11_06_20_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_11_08_40_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_11_09_22_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_11_17_10_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_11_17_53_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_11_23_38_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_11_23_41_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_11_31_13_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_11_33_54_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_11_36_03_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_11_36_51_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_11_38_27_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_11_42_31_TestReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_11_43_21_TestReport.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_15_46_55_TestReport.html" afterPath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_14_32_40_TestReport.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/HTMLTestRunnerXL.py" afterPath="$PROJECT_DIR$/public/HTMLTestRunnerXL.py" />
     </list>
@@ -104,7 +25,7 @@
     <SUITE FILE_PATH="coverage/GoldGarden$1231231.coverage" NAME="1231231 Coverage Results" MODIFIED="1509604340222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/po" />
     <SUITE FILE_PATH="coverage/GoldGarden$23132131232.coverage" NAME="23132131232 Coverage Results" MODIFIED="1509609767903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/GoldGarden$draw_cartogram.coverage" NAME="draw_cartogram Coverage Results" MODIFIED="1508995059511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
-    <SUITE FILE_PATH="coverage/GoldGarden$run.coverage" NAME="run Coverage Results" MODIFIED="1510641105503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GoldGarden$run.coverage" NAME="run Coverage Results" MODIFIED="1510646313029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/GoldGarden$use_excel.coverage" NAME="use_excel Coverage Results" MODIFIED="1509072834048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/GoldGarden$global_parameters.coverage" NAME="global_parameters Coverage Results" MODIFIED="1510482619643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/config" />
     <SUITE FILE_PATH="coverage/GoldGarden$Unittests_in_HTMLTestRunner.coverage" NAME="Unittests in HTMLTestRunner Coverage Results" MODIFIED="1510475414637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
@@ -153,7 +74,30 @@
     <favorites_list name="GoldGarden" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="run.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/run.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.10681114">
+              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HTMLTestRunnerXL.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/HTMLTestRunnerXL.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.9">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+              <folding>
+                <element signature="e#34#71#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -220,9 +164,9 @@
         <option value="$PROJECT_DIR$/../HTMLTestRunner.py" />
         <option value="$PROJECT_DIR$/../HTMLTestRunner1.py" />
         <option value="$PROJECT_DIR$/public/HTMLTestRunner.py" />
-        <option value="$PROJECT_DIR$/public/HTMLTestRunnerXL.py" />
         <option value="$PROJECT_DIR$/po/base_page.py" />
         <option value="$PROJECT_DIR$/run.py" />
+        <option value="$PROJECT_DIR$/public/HTMLTestRunnerXL.py" />
       </list>
     </option>
   </component>
@@ -311,6 +255,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test_case" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoldGarden" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoldGarden" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -791,7 +749,13 @@
       <option name="project" value="LOCAL" />
       <updated>1510631528673</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="优化和修改htmltestrunner存在的问题">
+      <created>1510641412658</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1510641412658</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -835,9 +799,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6162963" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6207407" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4814815" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17057101" sideWeight="0.49069768" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44363105" sideWeight="0.49069768" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -897,7 +861,8 @@
     <MESSAGE value="Add runner.bat" />
     <MESSAGE value="HTMLTestRunner version 1.0.1" />
     <MESSAGE value="HTMLTestRunner version 1.0.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="HTMLTestRunner version 1.0.2" />
+    <MESSAGE value="优化和修改htmltestrunner存在的问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化和修改htmltestrunner存在的问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1087,13 +1052,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/test_safety.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/wechat_sender.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.14241487">
@@ -1186,26 +1144,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28173375">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-          <folding>
-            <element signature="e#34#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/HTMLTestRunnerXL.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28482974">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#34#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/send_mail.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.035603717">
@@ -1244,6 +1182,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28482974">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/test_safety.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32352942">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/HTMLTestRunnerXL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.9">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="e#34#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10681114">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
           <folding />
         </state>
       </provider>
