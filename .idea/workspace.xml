@@ -1,9 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e30de97-c1c4-494a-9224-1205845d1d72" name="Default" comment="">
+    <list default="true" id="1e30de97-c1c4-494a-9224-1205845d1d72" name="Default" comment="HTMLTestRunner version 1.0.1">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_18_12_25_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_18_13_02_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_18_16_08_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_18_16_43_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_18_22_55_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_23_26_08_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_23_30_08_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_23_42_17_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_23_55_45_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-13/2017-11-13_23_58_53_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_00_03_44_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_00_04_11_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_00_06_06_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_00_07_26_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_00_09_14_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_09_43_20_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_09_43_21_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_09_45_58_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_09_49_15_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_09_50_18_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_09_51_10_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_09_51_51_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_09_54_34_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_09_55_41_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_09_56_33_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_09_57_26_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_10_16_09_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_10_18_45_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_10_19_15_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_10_20_13_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_10_23_03_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_10_34_17_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_10_55_16_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_10_55_58_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_10_56_47_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_11_03_45_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_11_06_20_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_11_08_40_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_11_09_22_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_11_17_10_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_11_17_53_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_11_23_38_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_11_23_41_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_11_31_13_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_11_33_54_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_11_36_03_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_11_36_51_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_11_38_27_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_11_42_31_TestReport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-14/2017-11-14_11_43_21_TestReport.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/HTMLTestRunnerXL.py" afterPath="$PROJECT_DIR$/public/HTMLTestRunnerXL.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run.py" afterPath="$PROJECT_DIR$/run.py" />
     </list>
     <ignored path="GoldGarden.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,7 +76,7 @@
     <SUITE FILE_PATH="coverage/GoldGarden$1231231.coverage" NAME="1231231 Coverage Results" MODIFIED="1509604340222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/po" />
     <SUITE FILE_PATH="coverage/GoldGarden$23132131232.coverage" NAME="23132131232 Coverage Results" MODIFIED="1509609767903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/GoldGarden$draw_cartogram.coverage" NAME="draw_cartogram Coverage Results" MODIFIED="1508995059511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
-    <SUITE FILE_PATH="coverage/GoldGarden$run.coverage" NAME="run Coverage Results" MODIFIED="1510568573859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GoldGarden$run.coverage" NAME="run Coverage Results" MODIFIED="1510631000079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/GoldGarden$use_excel.coverage" NAME="use_excel Coverage Results" MODIFIED="1509072834048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/GoldGarden$global_parameters.coverage" NAME="global_parameters Coverage Results" MODIFIED="1510482619643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/config" />
     <SUITE FILE_PATH="coverage/GoldGarden$Unittests_in_HTMLTestRunner.coverage" NAME="Unittests in HTMLTestRunner Coverage Results" MODIFIED="1510475414637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
@@ -88,7 +139,7 @@
         <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
               <folding>
                 <element signature="e#34#49#0" expanded="true" />
               </folding>
@@ -99,8 +150,8 @@
       <file leaf-file-name="HTMLTestRunnerXL.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/HTMLTestRunnerXL.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40746754">
-              <caret line="608" column="16" selection-start-line="608" selection-start-column="16" selection-end-line="608" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.14734773">
+              <caret line="210" column="27" selection-start-line="210" selection-start-column="27" selection-end-line="210" selection-end-column="27" />
               <folding>
                 <element signature="e#34#71#0" expanded="true" />
               </folding>
@@ -175,8 +226,8 @@
         <option value="$PROJECT_DIR$/common/send_mail.py" />
         <option value="$PROJECT_DIR$/../HTMLTestRunner.py" />
         <option value="$PROJECT_DIR$/../HTMLTestRunner1.py" />
-        <option value="$PROJECT_DIR$/run.py" />
         <option value="$PROJECT_DIR$/public/HTMLTestRunner.py" />
+        <option value="$PROJECT_DIR$/run.py" />
         <option value="$PROJECT_DIR$/public/HTMLTestRunnerXL.py" />
       </list>
     </option>
@@ -265,7 +316,35 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="result" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoldGarden" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoldGarden" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoldGarden" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoldGarden" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -706,7 +785,13 @@
       <option name="project" value="LOCAL" />
       <updated>1510563172473</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="HTMLTestRunner version 1.0.1">
+      <created>1510568746986</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1510568746986</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -745,19 +830,20 @@
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18740849" sideWeight="0.49069768" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32576868" sideWeight="0.49069768" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6162963" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43555555" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15851852" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.323217" sideWeight="0.5093023" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -809,7 +895,8 @@
     <MESSAGE value="change name" />
     <MESSAGE value="Add HTMLTestRunnerXL version 1.0.0" />
     <MESSAGE value="Add runner.bat" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add runner.bat" />
+    <MESSAGE value="HTMLTestRunner version 1.0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="HTMLTestRunner version 1.0.1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -818,6 +905,16 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/HTMLTestRunnerXL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#34#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/result/log/2017-10-31/2017-10-31-14_49_10.log">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1062,20 +1159,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0743034">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/global_parameters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75077397">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/use_text.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.43034056">
@@ -1090,14 +1173,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/read_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../HTMLTestRunner1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5696595">
@@ -1109,7 +1184,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.035714">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1117,7 +1191,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="184" column="0" selection-start-line="184" selection-start-column="0" selection-end-line="194" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1125,7 +1198,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32043344">
           <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1133,7 +1205,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7863777">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1141,7 +1212,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.43034056">
           <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.498452">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/global_parameters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="10" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/read_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35603714">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1156,7 +1248,7 @@
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
           <folding>
             <element signature="e#34#49#0" expanded="true" />
           </folding>
@@ -1165,8 +1257,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/HTMLTestRunnerXL.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40746754">
-          <caret line="608" column="16" selection-start-line="608" selection-start-column="16" selection-end-line="608" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.14734773">
+          <caret line="210" column="27" selection-start-line="210" selection-start-column="27" selection-end-line="210" selection-end-column="27" />
           <folding>
             <element signature="e#34#71#0" expanded="true" />
           </folding>

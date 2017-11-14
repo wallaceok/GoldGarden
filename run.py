@@ -19,7 +19,7 @@ def run(rule="test_login.py"):
     if not os.path.isdir(report_path):
         os.makedirs(report_path)
     now = time.strftime('%Y-%m-%d_%H_%M_%S')
-    test_report_name = report_path +'\\'+now+'_TestReport.html'
+    test_report_name = report_path + '\\' + now + '_TestReport.html'
     with open(test_report_name, 'wb') as fb:
         runner = HTMLTestRunnerXL.HTMLTestRunner(
             stream=fb,
@@ -30,10 +30,3 @@ def run(rule="test_login.py"):
 
 if __name__ == '__main__':
     run()
-
-
-
-
-
-
-

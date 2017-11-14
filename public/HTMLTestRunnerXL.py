@@ -6,60 +6,9 @@ import io
 import sys
 import unittest
 from xml.sax import saxutils
-"""
-Created on 2017-11-13
-@author: luting
-修改原HTMLTestRunner代码存在的bug、优化,可试用于Python3
-
-用于使用Python单元测试框架的TestRunner.
-它 生成一个HTML报告，以显示结果.
-
-最简单的方法是调用它的主方法.例如：
-
-    import unittest
-    import HTMLTestRunner
-
-    ... 定义您的测试 ...
-
-    if __name__ == '__main__':
-        HTMLTestRunner.main()
-
-
-对于更多的自定义选项，实例化一个HTMLTestRunner对象.
-HTMLTestRunner是与unittest的TextTestRunner相对应的. 例如：
-
-    # 输出到一个文件
-    fp = file('my_report.html', 'wb')
-    runner = HTMLTestRunner.HTMLTestRunner(
-                stream=fp,
-                title='My unit test',
-                description='这演示了HTMLTestRunner的报告输出.'
-                )
-
-    # 使用外部样式表
-    # 请参阅模板mixin类，以获得更多可定制的选项
-    runner.STYLESHEET_TMPL = '<link rel="stylesheet" href="my_stylesheet.css" type="text/css">'
-
-    # 运行这个case
-    runner.run(my_test_suite)
-
-------------------------------------------------------------------------
-"""
-
-"""
-------------------------------------------------------------------------
-下面的re指导者用于在测试期间捕获输出. 
-输出 发送到系统。stdout和系统。stderr自动捕获。然而 在某些情况下系统。在HTMLTestRunner之前已经缓存了stdout 调用(例如,调用logging.basicConfig)). 
-为了捕捉这些 输出，使用缓存流的re指导者.
-
-例如：
-  >>> logging.basicConfig(stream=HTMLTestRunner.stdout_redirector)
-  >>>
-"""
 
 
 class OutputRedirector(object):
-    """ 用于重定向stdout或stderr的包装器 """
     def __init__(self, fp):
         self.fp = fp
 
@@ -76,58 +25,16 @@ stdout_redirector = OutputRedirector(sys.stdout)
 stderr_redirector = OutputRedirector(sys.stderr)
 
 
-# ----------------------------------------------------------------------
-# 模板
-
 class TemplateMixin(object):
-    """
-    定义一个用于报告定制和生成的HTML模板.
 
-    HTML报告的总体结构
-
-    HTML
-    +------------------------+
-    |<html>                  |
-    |  <head>                |
-    |                        |
-    |   样式表         |
-    |   +----------------+   |
-    |   |                |   |
-    |   +----------------+   |
-    |                        |
-    |  </head>               |
-    |                        |
-    |  <body>                |
-    |                        |
-    |   标题            |
-    |   +----------------+   |
-    |   |                |   |
-    |   +----------------+   |
-    |                        |
-    |   报告               |
-    |   +----------------+   |
-    |   |                |   |
-    |   +----------------+   |
-    |                        |
-    |   结尾               |
-    |   +----------------+   |
-    |   |                |   |
-    |   +----------------+   |
-    |                        |
-    |  </body>               |
-    |</html>                 |
-    +------------------------+
-    """
-
-    STATUS = {0: 'pass', 1: 'fail', 2: 'error', }
+    STATUS = {0: '通过', 1: '失败', 2: '错误', }
 
     DEFAULT_TITLE = 'Unit Test Report'
     DEFAULT_DESCRIPTION = ''
 
-    # ------------------------------------------------------------------------
-    # HTML 模板
+    # ----------------------- HTML板-------------------------------------------------
 
-    HTML_TMPL = r"""<?xml version="1.0" encoding="UTF-8"?>
+    html_template = r"""<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -294,10 +201,10 @@ a.popup_link:hover {
 
 }
 /* -- report ------------------------------------------------------------------------ */
-#show_detail_line {
+<!--#show_detail_line {
     margin-top: 3ex;
     margin-bottom: 1ex;
-}
+}-->
 #result_table {
     width: 80%;
     border-collapse: collapse;
@@ -330,9 +237,7 @@ a.popup_link:hover {
 </style>
 """
 
-    # ------------------------------------------------------------------------
-    # 标题
-    #
+    # -----------------------标题-------------------------------------------------
 
     HEADING_TMPL = """<div class='heading'>
 <h1>%(title)s</h1>
@@ -347,15 +252,39 @@ a.popup_link:hover {
 """
 # 变量: (name, value)
 
-    # ------------------------------------------------------------------------
-    # 报告
-    #
+    # -------------------------报告-----------------------------------------------
 
     REPORT_TMPL = """
-<p id='show_detail_line'>Show
-<a href='javascript:showCase(0)'>概要</a>
-<a href='javascript:showCase(1)'>失败</a>
-<a href='javascript:showCase(2)'>所有</a>
+<style>
+#show_detail_line_summary{
+background-color:#CC00CC;
+width: 46px;
+height: 24px;
+color: #FFFFFF;
+font-family:"华文行楷";
+}
+#show_detail_line_fail{
+background-color:#FF3333;
+width: 46px;
+height: 24px;
+color: #FFFFFF;
+font-family:"华文行楷";
+}
+#show_detail_line_all{
+background-color:#6600FF;
+width: 46px;
+height: 24px;
+color: #FFFFFF;
+font-family:"华文行楷";
+}
+</style>
+<p>
+<button id='show_detail_line_summary' type="button" onclick="javascript:showCase(0)"
+ onmouseover="this.style.backgroundColor='#FF6699';" onmouseout="this.style.backgroundColor='#CC00CC';">概要</button>
+<button id='show_detail_line_fail' type="button" onclick="javascript:showCase(1)"
+onmouseover="this.style.backgroundColor='#FF9933';" onmouseout="this.style.backgroundColor='#FF3333';">失败</button>
+<button id='show_detail_line_all' type="button" onclick="javascript:showCase(2)"
+ onmouseover="this.style.backgroundColor='#33FF66';" onmouseout="this.style.backgroundColor='#6600FF';">所有</button>
 </p>
 <table id='result_table'>
 <colgroup>
@@ -437,9 +366,7 @@ a.popup_link:hover {
 """
 # 变量: (id, output)
 
-    # ------------------------------------------------------------------------
-    # 结尾
-    #
+    # ---------------------------结尾---------------------------------------------
 
     ENDING_TMPL = """<div id='ending'>&nbsp;</div>"""
 
@@ -450,8 +377,6 @@ TestResult = unittest.TestResult
 
 
 class _TestResult(TestResult):
-    # 注意: TestResult是结果的纯粹表示.
-    # 它缺乏与unittest相比的输出和报告能力._TextTestResult.
 
     def __init__(self, verbosity=1):
         super(_TestResult, self).__init__()
@@ -462,18 +387,10 @@ class _TestResult(TestResult):
         self.failure_count = 0
         self.error_count = 0
         self.verbosity = verbosity
-        # 结果是一个4元组的结果列表
-        # (
-        #   result code (0: success; 1: fail; 2: error),
-        #   TestCase object,
-        #   Test output (byte string),
-        #   stack trace,
-        # )
         self.result = []
 
     def startTest(self, test):
         super(_TestResult, self).startTest(test)
-        # 仅为stdout和stderr提供一个缓冲
         self.output_buffer = io.StringIO()
         stdout_redirector.fp = self.output_buffer
         stderr_redirector.fp = self.output_buffer
@@ -483,10 +400,6 @@ class _TestResult(TestResult):
         sys.stderr = stderr_redirector
 
     def complete_output(self):
-        """
-        Disconnect output redirection and return buffer.
-        Safe to call multiple times.
-        """
         if self.stdout0:
             sys.stdout = self.stdout0
             sys.stderr = self.stderr0
@@ -495,9 +408,6 @@ class _TestResult(TestResult):
         return self.output_buffer.getvalue()
 
     def stopTest(self, test):
-        # 通常会有一个add成功率，addError或add失败者.
-        # 但是在unittest中有一些路径可以绕过这个.
-        # 我们必须在stopTest()中断开stdout，它将被称为.
         self.complete_output()
 
     def addSuccess(self, test):
@@ -556,11 +466,6 @@ class HTMLTestRunner(TemplateMixin):
         self.start_time = datetime.datetime.now()
 
     def run(self, test):
-        """
-        运行给定的测试用例或测试套件.
-        :param test:  测试用例或测试套件
-        :return:
-        """
         result = _TestResult(self.verbosity)
         test(result)
         self.stop_time = datetime.datetime.now()
@@ -569,8 +474,6 @@ class HTMLTestRunner(TemplateMixin):
 
     @staticmethod
     def sort_result(result_list):
-        # unittest似乎不以任何特定的顺序运行.
-        # 这里至少我们想把它们按类分组.
         rmap = {}
         classes = []
         for n, t, o, e in result_list:
@@ -583,22 +486,16 @@ class HTMLTestRunner(TemplateMixin):
         return r
 
     def get_report_attributes(self, result):
-        """
-        返回报告属性作为一个列表(名称，值).
-        覆盖这个以添加自定义属性.
-        :param result:   报告
-        :return:
-        """
         start_time = str(self.start_time)[:19]
         self.stop_time = datetime.datetime.now()
         duration = str(self.stop_time - self.start_time)
         status = []
         if result.success_count:
-            status.append('Pass %s' % result.success_count)
+            status.append('通过 %s' % result.success_count)
         if result.failure_count:
-            status.append('Failure %s' % result.failure_count)
+            status.append('失败 %s' % result.failure_count)
         if result.error_count:
-            status.append('Error %s' % result.error_count)
+            status.append('错误 %s' % result.error_count)
         if status:
             status = ' '.join(status)
         else:
@@ -616,7 +513,7 @@ class HTMLTestRunner(TemplateMixin):
         heading = self._generate_heading(report_attrs)
         report = self._generate_report(result)
         ending = self._generate_ending()
-        output = self.HTML_TMPL % dict(
+        output = self.html_template % dict(
             title=saxutils.escape(self.title),
             generator=generator,
             stylesheet=stylesheet,
@@ -648,7 +545,6 @@ class HTMLTestRunner(TemplateMixin):
         rows = []
         sorted_result = self.sort_result(result.result)
         for cid, (cls, cls_results) in enumerate(sorted_result):
-            # 小计为一个类
             np = nf = ne = 0
             for n, t, o, e in cls_results:
                 if n == 0:
@@ -658,7 +554,6 @@ class HTMLTestRunner(TemplateMixin):
                 else:
                     ne += 1
 
-            # 格式类描述
             if cls.__module__ == "__main__":
                 name = cls.__name__
             else:
@@ -698,16 +593,11 @@ class HTMLTestRunner(TemplateMixin):
         desc = doc and ('%s: %s' % (name, doc)) or name
         tmpl = has_output and self.REPORT_TEST_WITH_OUTPUT_TMPL or self.REPORT_TEST_NO_OUTPUT_TMPL
 
-        # o和e应该是字节字符串，因为它们是从stdout和stderr收集的?
         if isinstance(o, str):
-            # 待办事项: 字符串转义”的一些问题:它转义n，并使格式混乱
-            # uo = unicode(o.encode('string_escape'))
             uo = o
         else:
             uo = o
         if isinstance(e, str):
-            # 待办事项: 字符串转义”的一些问题:它转义n，并使格式混乱
-            # ue = unicode(e.encode('string_escape'))
             ue = e
         else:
             ue = e
@@ -733,33 +623,15 @@ class HTMLTestRunner(TemplateMixin):
         return self.ENDING_TMPL
 
 
-##############################################################################
-# 从命令行运行测试的设施
-##############################################################################
-"""
-注意: unittest重用。TestProgram启动测试.
-将来我们可能会 构建我们自己的启动器以支持更具体的命令行 测试标题、CSS等参数.
-"""
-
-
 class TestProgram(unittest.TestProgram):
-    """
-    unittest.testprogram的一种变体。请参阅基础 命令行参数类.
-    """
+
     def runTests(self):
-        """
-        选择HTMLTestRunner作为默认的测试运行程序.
-        基类的testrunner参数是有用的因为它意味着我们必须实例化HTMLTestRunner才知道self.verbosity.
-        """
         if self.testRunner is None:
             self.testRunner = HTMLTestRunner(verbosity=self.verbosity)
         unittest.TestProgram.runTests(self)
 
 main = TestProgram
 
-##############################################################################
-# 从命令行执行此模块
-##############################################################################
 
 if __name__ == "__main__":
     main(module=None)
