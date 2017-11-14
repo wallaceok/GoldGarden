@@ -161,7 +161,7 @@ table       { font-size: 100%; }
 pre         { }
 
 /* -- heading ---------------------------------------------------------------------- */
-h1 {font-size: 16pt;color: gray;}
+<!--h1 {font-size: 16pt;color: gray;}
 .heading {
     margin-top: 0ex;
     margin-bottom: 1ex;
@@ -170,12 +170,13 @@ h1 {font-size: 16pt;color: gray;}
 .heading .attribute {
     margin-top: 1ex;
     margin-bottom: 0;
+    font-family:"华文行楷";
 }
 
 .heading .description {
     margin-top: 4ex;
     margin-bottom: 6ex;
-}
+}-->
 
 /* -- css div popup ------------------------------------------------------------------------ */
 a.popup_link {
@@ -210,22 +211,24 @@ a.popup_link:hover {
     border-collapse: collapse;
     border: 1px solid #777;
 }
-#header_row {
+<!--#header_row {
     font-weight: bold;
     color: white;
     background-color: #777;
-}
+}-->
 #result_table td {
     border: 1px solid #777;
     padding: 2px;
 }
-#total_row  { font-weight: bold; }
+<!--#total_row  { font-weight: bold; }-->
+<!--
 .passClass  { background-color: #6c6; }
 .failClass  { background-color: #c60; }
 .errorClass { background-color: #c00; }
 .passCase   { color: #6c6; }
 .failCase   { color: #c60; font-weight: bold; }
 .errorCase  { color: #c00; font-weight: bold; }
+-->
 .hiddenRow  { display: none; }
 .testcase   { margin-left: 2em; }
 
@@ -240,8 +243,24 @@ a.popup_link:hover {
     # -----------------------标题-------------------------------------------------
 
     HEADING_TMPL = """<div class='heading'>
-<h1>%(title)s</h1>
-%(parameters)s
+<h1 style="color:#fafafa;letter-spacing: 0;
+text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666,
+ 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135">%(title)s</h1>
+ <style>
+#parameters{
+margin-top: 1ex;
+margin-bottom: 0;
+font-family:"华文行楷";
+}
+</style>
+<p id='parameters'>%(parameters)s</p>
+<style>
+.description{
+margin-top: 4ex;
+margin-bottom: 6ex;
+font-family:"华文行楷";
+}
+</style>
 <p class='description'>%(description)s</p>
 </div>
 
@@ -286,6 +305,8 @@ onmouseover="this.style.backgroundColor='#FF9933';" onmouseout="this.style.backg
 <button id='show_detail_line_all' type="button" onclick="javascript:showCase(2)"
  onmouseover="this.style.backgroundColor='#33FF66';" onmouseout="this.style.backgroundColor='#6600FF';">所有</button>
 </p>
+
+
 <table id='result_table'>
 <colgroup>
 <col align='left' />
@@ -295,6 +316,25 @@ onmouseover="this.style.backgroundColor='#FF9933';" onmouseout="this.style.backg
 <col align='right' />
 <col align='right' />
 </colgroup>
+
+<style>
+#header_row {
+    font-weight: bold;
+    color: white;
+    background-color: #777;
+    font-family:"华文行楷";
+}
+</style>
+
+<style>
+.passClass  { background-color: #66FF33;}
+.failClass  { background-color: #FF6633;}
+.errorClass { background-color: #FF0000;}
+.passCase   { color: #66FF33;}
+.failCase   { color: #FF6633; font-weight: bold;}
+.errorCase  { color: #FF0000; font-weight: bold;}
+</style>
+
 <tr id='header_row'>
     <td>测试套件/测试用例</td>
     <td>总数</td>
@@ -304,8 +344,12 @@ onmouseover="this.style.backgroundColor='#FF9933';" onmouseout="this.style.backg
     <td>查看</td>
 </tr>
 %(test_list)s
+
+<style>
+#total_row  { font-weight: bold;font-family:"华文行楷"; }
+</style>
 <tr id='total_row'>
-    <td>总计</td>
+    <td >总计</td>
     <td>%(count)s</td>
     <td>%(Pass)s</td>
     <td>%(fail)s</td>
