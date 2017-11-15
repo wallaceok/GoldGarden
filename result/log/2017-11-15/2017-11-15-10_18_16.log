@@ -1,0 +1,12 @@
+2017-11-15 10:18:25,413 - common.log - INFO - ############################### START ###############################
+2017-11-15 10:18:25,415 - common.log - INFO - Click the element	<id -> com.tdh.rpms:id/tv_forget_password>	 spend :0.0 time 
+2017-11-15 10:18:28,736 - common.log - INFO - Get the window title 	<id -> com.tdh.rpms:id/tv_title>	 spend :0.6850392818450928 time 
+2017-11-15 10:18:28,738 - common.log - INFO - change password page title is： 重置密码
+2017-11-15 10:18:31,461 - common.log - INFO - Clear and input text to the element 	<id -> com.tdh.rpms:id/et_reset_mobile>	 content: 13679130028  spend :2.720155715942383 time 
+2017-11-15 10:18:39,872 - common.log - INFO - Clear and input text to the element 	<id -> com.tdh.rpms:id/et_reset_identify_code>	 content: 9999  spend :3.231184959411621 time 
+2017-11-15 10:18:48,188 - common.log - INFO - Clear and input text to the element 	<id -> com.tdh.rpms:id/et_new_pwd>	 content: 12345678  spend :3.099177360534668 time 
+2017-11-15 10:18:53,551 - common.log - INFO - Click the element	<id -> com.tdh.rpms:id/btn_confrim>	 spend :0.0 time 
+2017-11-15 10:18:56,456 - common.log - INFO - Screenshot of success：ChangePswOK spend :1.7701013088226318 time 
+2017-11-15 10:18:56,723 - common.log - INFO - Get the window title 	<id -> com.tdh.rpms:id/tv_version_number>	 spend :0.22701287269592285 time 
+2017-11-15 10:18:56,725 - common.log - INFO - version text is： V2.5.8
+2017-11-15 10:18:56,727 - common.log - INFO - ###############################  End  ###############################

@@ -36,6 +36,7 @@ image_path = os.path.join(project_path, 'result', 'image')
 report_ptah = os.path.join(project_path, 'result', 'report')
 case_path = os.path.join(project_path, 'test_case')
 apk_path = os.path.join(project_path, 'apk')
+data_path = os.path.join(project_path, 'data')
 
 '''邮箱参数配置'''
 receiver = read_config.get_values('Email', 'recvaddress')
