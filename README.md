@@ -25,3 +25,9 @@
   * configparser
 
 
+***GoldGarden V0.0.3***
+  * 优化原HTMLTestRunner报告
+  * Base_Page加入一组list随机点击方法
+  * 新增发送邮件功能
+
+
