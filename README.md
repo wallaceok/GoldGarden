@@ -39,5 +39,10 @@ jenkins 2.0
 tomcat配置：https://jingyan.baidu.com/article/54b6b9c0dd0c6a2d593b4743.html
 Jenkins war包放到webapps下
 启动jenkins：先重启tomcat：startup.bat，然后在浏览器输入http://localhost:8080/jenkins/
-
-
+ 
+ 
+小结 ：近期私事比较多，更新较为缓慢，Thanks♪(･ω･)ﾉ
+项目 ：
+      1.未完成自动发送邮件部分内容，写入表格操作模块，自动启动appium_server模块，占用端口情况尚未完善，几多运行多台机子等情况。
+      2.代码整体相对来说比较low比，基础尚弱，之后将会进行部分重构优化行为
+      3.case基本未补全，由于appium版本比较落后为1.4.1 之后将变更为1.7版本，部分name定位新版本不兼容，将对其进行更正
