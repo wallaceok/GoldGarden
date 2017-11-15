@@ -6,6 +6,7 @@ from common.log import Log
 import time
 import os
 from config import global_parameters
+import random
 
 
 class BasePage(object):
@@ -48,7 +49,7 @@ class BasePage(object):
         :return:                    切进iframe中
         """
         self.log.info(u"切换 iframe：%s" % loc)
-        return self.driver.switch_to_frame(loc)
+        return self.driver.switch_to.frame(loc)
 
     def switch_webview(self):
         """
@@ -84,6 +85,29 @@ class BasePage(object):
         except Exception:
             self.log.info('Please enter the correct targeting elements')
 
+    def find_elements(self, *loc):
+        """
+        查找一组元素
+        :param loc:                  定位器
+        :return:                    定位元素
+        """
+        try:
+            if len(self.driver.find_elements(*loc)) > 0:
+                num = random.randint(1, len(self.driver.find_elements(*loc)))
+                return self.driver.find_elements(*loc)[num]
+        except Exception:
+            self.log.info('The list of elements is empty')
+
+    def random_click(self, *loc):
+        """
+        随机点击一组元素中的某个
+        :param loc:                  定位器
+        :return:
+        """
+        start_time = time.time()
+        self.log.info(u"Random click the element\t<%s -> %s>\t spend :%s time " % (loc[0], loc[1], time.time() - start_time))
+        return self.find_elements(*loc).click()
+
     def get_text(self, *loc):
         """
         获取元素文本值
@@ -91,9 +115,8 @@ class BasePage(object):
         :return:                    元素文本值
         """
         start_time = time.time()
-        text = self.find_element(*loc).text
-        self.log.info(u"Get the window title \t<%s -> %s>\t spend :%s time " % (loc[0], loc[1], time.time() - start_time))
-        return text
+        self.log.info(u"Get the text \t<%s -> %s>\t spend :%s time " % (loc[0], loc[1], time.time() - start_time))
+        return self.find_element(*loc).text
 
     def click(self, *loc):
         """
