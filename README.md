@@ -30,4 +30,6 @@
   * Base_Page加入一组list随机点击方法
   * 新增发送邮件功能
 
+  ![image](https://github.com/xiaoxiaolulu/GoldGarden/blob/master/template/example.png)
+
 
