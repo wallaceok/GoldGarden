@@ -2,8 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e30de97-c1c4-494a-9224-1205845d1d72" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/image/2017-11-15/2017-11-15-16_23_52_LoginSuccess.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/image/2017-11-15/2017-11-15-16_25_25_LoginSuccess.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/image/2017-11-15/2017-11-15-16_29_07_LoginSuccess.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/image/2017-11-15/2017-11-15-16_32_04_LoginSuccess.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/image/2017-11-15/2017-11-15-16_35_11_LoginSuccess.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/image/2017-11-15/2017-11-15-16_36_42_LoginSuccess.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/image/2017-11-15/2017-11-15-16_38_30_LoginSuccess.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/image/2017-11-15/2017-11-15-16_40_11_LoginSuccess.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/image/2017-11-15/2017-11-15-16_41_08_LoginSuccess.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/image/2017-11-15/2017-11-15-16_44_41_LoginSuccess.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/image/2017-11-15/2017-11-15-16_49_49_LoginSuccess.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/image/2017-11-15/2017-11-15-16_54_06_LoginSuccess.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/image/2017-11-15/2017-11-15-17_56_33_LoginSuccess.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/example.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/log/2017-11-15/2017-11-15-16_22_56.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/log/2017-11-15/2017-11-15-16_24_29.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/log/2017-11-15/2017-11-15-16_28_39.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/log/2017-11-15/2017-11-15-16_31_33.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/log/2017-11-15/2017-11-15-16_34_28.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/log/2017-11-15/2017-11-15-16_36_02.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/log/2017-11-15/2017-11-15-16_37_52.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/log/2017-11-15/2017-11-15-16_39_33.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/log/2017-11-15/2017-11-15-16_40_30.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/log/2017-11-15/2017-11-15-16_44_11.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/log/2017-11-15/2017-11-15-16_48_50.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/log/2017-11-15/2017-11-15-16_49_20.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/log/2017-11-15/2017-11-15-16_53_36.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/log/2017-11-15/2017-11-15-17_56_03.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result/report/2017-11-15/2017-11-15_17_56_03_TestReport.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="GoldGarden.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -317,20 +345,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GoldGarden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GoldGarden" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="result" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -895,7 +909,13 @@
       <option name="project" value="LOCAL" />
       <updated>1510739008654</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="添加定位一组元素，并随机点击的方法，代码尚未测试，勿用&#10;">
+      <created>1510739789972</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1510739789972</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -932,9 +952,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20937042" sideWeight="0.49069768" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20937042" sideWeight="0.49069768" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
