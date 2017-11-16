@@ -39,6 +39,10 @@ apk_path = os.path.join(project_path, 'apk')
 data_path = os.path.join(project_path, 'data')
 
 '''邮箱参数配置'''
-receiver = read_config.get_values('Email', 'recvaddress')
+receiver_luting = read_config.get_values('Email', 'recvaddress_luting')
+receiver_xiaofang = read_config.get_values('Email', 'recvaddress_xiaofang')
+receiver_lizhen = read_config.get_values('Email', 'recvaddress_lizhen')
+receiver_linyan = read_config.get_values('Email', 'recvaddress_linyan')
 sender_name = read_config.get_values('Email', 'sendaddr_name')
 sender_psw = read_config.get_values('Email', 'sendaddr_pswd')
+
