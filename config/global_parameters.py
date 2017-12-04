@@ -31,6 +31,7 @@ apk_activity = read_config.get_values('App', 'activity')
 '''文件路径配置'''
 project_path = read_config.get_values('projectConfig', 'project_path')
 log_path = os.path.join(project_path, 'result', 'log')
+monkey_result = os.path.join(project_path, 'result', 'monkey')
 excel_path = os.path.join(project_path, 'data', 'loginData.xlsx')
 image_path = os.path.join(project_path, 'result', 'image')
 report_ptah = os.path.join(project_path, 'result', 'report')
@@ -45,4 +46,3 @@ receiver_lizhen = read_config.get_values('Email', 'recvaddress_lizhen')
 receiver_linyan = read_config.get_values('Email', 'recvaddress_linyan')
 sender_name = read_config.get_values('Email', 'sendaddr_name')
 sender_psw = read_config.get_values('Email', 'sendaddr_pswd')
-
