@@ -1,70 +1,73 @@
 #!/usr/bin/python3
 # coding：utf-8
-from __future__ import print_function
-import urllib.request
+import requests
 import json
-'''
-Created on 2017-10-18
-@author: luting
-Project:基础类WechatSender，发送至企业微信错误的日志信息
-'''
 
 
 class WechatSender(object):
 
     def __init__(self):
-        self.grop_id = 'wwc970d773f2883409'
+        self.corp_id = 'wwc970d773f2883409'
         self.secret = 'nkiM5L0pP438RDjO-oiX-MMzzWg2gaQI96t9NxtTQNs'
 
-    def get_access_token(self):
+    def get_token(self):
         """
-        得到token值
-        :return:   返回token string类型
+        获取access_token
+        ----------------------------------------------------------------
+        请求方式：GET（HTTPS）
+        请求URL：https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=ID&corpsecret=SECRECT
+        ----------------------------------------------------------------
+        参数说明：
+        参数	       必须	  说明
+        corpid	   是	  企业ID
+        corpsecret 是	  应用的凭证密钥
+        :return:  access_token	获取到的凭证,最长为512字节
         """
-        token_url = 'https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=%s&corpsecret=%s' % (self.grop_id, self.secret)
-        result = urllib.request.urlopen(token_url).read().decode()
-        result_json = json.loads(result)
-        print(result_json)
-        access_token = result_json['access_token']
-        return access_token
+        token_url = 'https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=%s&corpsecret=%s' % (self.corp_id, self.secret)
+        response = requests.get(token_url, verify=False).text
+        response_dict = json.loads(response)
+        token = response_dict['access_token']
+        return token
 
-    @staticmethod
-    def message(message):
+    def send_message(self, message):
         """
-        发送至企业微信的信息
-        :param message:    信息
-        :return:           生成企业微信api要传送的json值
+        发送消息
+        ----------------------------------------------------------------
+        请求方式：POST（HTTPS）
+        请求地址： https://qyapi.weixin.qq.com/cgi-bin/message/send?access_token=ACCESS_TOKEN
+        ----------------------------------------------------------------
+        参数	     是否必须	说明
+        touser	 否	        成员ID列表（消息接收者，多个接收者用‘|’分隔，最多支持1000个）。特殊情况：指定为@all，则向该企业应用的全部成员发送
+        toparty  否         部门ID列表，多个接收者用‘|’分隔，最多支持100个。当touser为@all时忽略本参数
+        totag	 否	        标签ID列表，多个接收者用‘|’分隔，最多支持100个。当touser为@all时忽略本参数
+        msgtype	 是      	消息类型，此时固定为：text
+        agentid	 是	        企业应用的id，整型。可在应用的设置页面查看
+        content	 是	        消息内容，最长不超过2048个字节
+        safe	 否	        表示是否是保密消息，0表示否，1表示是，默认0
+        :param message:    发送的消息 string类型
+        :return:           无返回值
         """
-        values = {
-            "touser": '@all',
-            "msgtype": 'text',
+        send_url = ' https://qyapi.weixin.qq.com/cgi-bin/message/send?access_token=%s' % (self.get_token())
+        post_data = {
+            "touser": "@all",
+            "msgtype": "text",
             "agentid": 1000002,
-            "text": {'content': message},
+            "text": {
+                "content": message
+            },
             "safe": 0
         }
-        print(message)
-        data = (bytes(json.dumps(values), 'utf-8'))
-        return data
-
-    def send_message(self, mes_data):
-        """
-        发送信息
-        :param mes_data:    企业微信api要传送的json值
-        :return:
-        """
-        send_message_url = 'https://qyapi.weixin.qq.com/cgi-bin/message/send?access_token=%s' % self.get_access_token()
-        respone = urllib.request.urlopen(urllib.request.Request(url=send_message_url, data=mes_data)).read()
-        print(json.loads(respone.decode()))
-        if json.loads(respone.decode())['errmsg'] == 'ok':
+        response = requests.post(send_url, data=json.dumps(post_data), verify=False)
+        result = json.loads(response.text)['errmsg']
+        if result == 'ok':
             print('消息发送成功')
         else:
             print('消息未能发送成功过')
 
+
 if __name__ == '__main__':
     send = WechatSender()
-    print(send.get_access_token())
-    # data = (send.message('宇宙无敌测试仔'))
-    # send.send_message(data)
+    send.send_message('帅气')
 
 
 

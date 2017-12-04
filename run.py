@@ -29,4 +29,6 @@ def run(rule="test_login.py"):
         runner.run(discover)
 
 if __name__ == '__main__':
-    run()
+    import fmovice
+    print(fmovice.Search_Movice("mysql入门到精通"))
+    # run()

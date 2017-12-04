@@ -157,7 +157,7 @@ def insert_inspection_day_plan_team():
     添加-日历计划-组
     :return:
     """
-    mysql.insert_data('safety_inspection_plan_team_user', 'PLAN_ID,RP_ID,REF_ID,REF_NAME,TYPE,DELETED,CREATED_BY,CREATED_TIME,VERSION', "%s,'1',%s,'testTeam','1','0','47849','2017-11-06 19:11:49','1'" % (select_inspection_plan_new(), select_inspection_team_team()))
+    mysql.insert_data('safety_inspection_plan_team_user', 'PLAN_ID,RP_ID,REF_ID,REF_NAME,TYPE,DELETED,CREATED_BY,CREATED_TIME,VERSION', "%s,'1',%s,'testTeam','1','0','47849','2017-11-30 19:11:49','1'" % (select_inspection_plan_new(), select_inspection_team_team()))
 
 
 def delete_inspection_plan_team():
@@ -173,7 +173,7 @@ def insert_inspection_plan_today():
     添加-排版-日历
     :return:
     """
-    mysql.insert_data('safety_inspection_plan', 'RP_ID,PLAN_NAME,COLOR,SETTING_ID,FREQUENCY,IS_ALL_POINT,TEMPLATE_ID,IS_TEMPLATE,TIME_LENGTH,BEGIN_TIME,END_TIME,DELETED,CREATED_BY,CREATED_TIME,VERSION', "'1','planTest','#E08283',%s,'1','1',%s,'0','23','2017-11-07 01:00:00','2017-11-08 01:00:00','0','47849','2017-11-06 20:08:41','1'" % (select_inspection_time(), select_inspection_plan()))
+    mysql.insert_data('safety_inspection_plan', 'RP_ID,PLAN_NAME,COLOR,SETTING_ID,FREQUENCY,IS_ALL_POINT,TEMPLATE_ID,IS_TEMPLATE,TIME_LENGTH,BEGIN_TIME,END_TIME,DELETED,CREATED_BY,CREATED_TIME,VERSION', "'1','planTest','#E08283',%s,'1','1',%s,'0','23','2017-11-30 01:00:00','2017-12-01 01:00:00','0','47849','2017-11-30 20:08:41','1'" % (select_inspection_time(), select_inspection_plan()))
 
 
 def safety_insert():
@@ -222,5 +222,7 @@ if __name__ == '__main__':
     # print(select__inspection_plan())
     # print(select_inspection_team_user)
     # insert_inspection_plan_team()
-    safety_delete()
-    safety_insert()
+    # safety_delete()
+    while True:
+        safety_insert()
+        print('==================================================')
