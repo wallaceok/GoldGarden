@@ -30,6 +30,12 @@
   * Base_Page加入一组list随机点击方法
   * 新增发送邮件功能
 
-  ![image](https://github.com/xiaoxiaolulu/GoldGarden/blob/master/template/example.png)
+  ![image](https://github.com/xiaoxiaolulu/GoldGarden/blob/master/template/example001.png)
 
 
+***GoldGarden V0.0.4***
+  * 新增模块write_excel模块
+  * monkey手机专项测试运行后的excel报告生成
+  * 使用requests库优化wechat_sender模块
+
+  ![image](https://github.com/xiaoxiaolulu/GoldGarden/blob/master/template/example002.png)
